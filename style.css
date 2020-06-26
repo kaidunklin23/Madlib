@@ -1,5 +1,5 @@
 body{
-    background-image: url("./pinkDots.jpg");
+  background: linear-gradient(35deg, pink, magenta, maroon);
     font-family: 'Freckle Face', cursive;
     line-height: 50px;
     font-size: 30px;
@@ -9,7 +9,7 @@ h1{
     text-align: center;
     font-family: 'Acme', sans-serif;
     border-style: ridge;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(253, 25, 120)13);
     border-radius: 50%;
     border-width: 13px;
 }
@@ -21,4 +21,12 @@ input{
     height: 200px;
     margin-left: 850px;
     border-radius: 40%;
+    box-shadow: 10mm,10mm,5mm, rgb(255, 255, 255);
+   
+
+}
+div{
+    width: fit-content;
+    background: radial-gradient( rgb(226, 112, 198),rgb(241, 44, 209),rgb(143, 8, 125));
+
 }
